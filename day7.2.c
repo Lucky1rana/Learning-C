@@ -17,7 +17,7 @@ int main()
 	}
 	else
 	{
-		printf("it is not a vowel");
+		printf("it is consonants");
 	}
 
 }
