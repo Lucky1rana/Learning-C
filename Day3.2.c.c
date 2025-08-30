@@ -1,3 +1,6 @@
+/*Write a program to swap two numbers by using a third variable.*/
+
+
 #include<stdio.h>
 int main()
 {
