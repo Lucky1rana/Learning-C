@@ -1,4 +1,4 @@
-/*Write a program to input three numbers and find the largest among them using if–else*/
+/*Write a program to input three numbers and find the largest among them using ifâ€“else*/
 
 #include<stdio.h>
 int main()
@@ -9,7 +9,7 @@ int a , b, c;
 	scanf("%d%d%d",&a,&b,&c);
 	if(a>b&&a>c)
 	{
-		printf("%d is greatest number,a ");
+		printf("%d is greatest number",a );
 	}
 	if(b>a&&b>c)
 	{
@@ -20,3 +20,4 @@ int a , b, c;
 		printf(" %d is greatest number ",c);
 	}
 }
+
