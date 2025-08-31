@@ -14,7 +14,8 @@ int main()
     }
     else
     {
-    	if(a<0){
+    	if(a<0)
+		{
 		
     	printf("integer is negative ",a);
 		}
@@ -26,4 +27,5 @@ int main()
 	
 	
 }
+
 
