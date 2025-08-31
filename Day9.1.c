@@ -5,7 +5,7 @@
 int main()
 {
 	int per ;
-	printf("Enter the the percentage obtained : ");
+	printf("Enter the percentage obtained : ");
 	scanf("%d",&per);
 	if(per>90)
 	{
