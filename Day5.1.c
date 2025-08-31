@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main() 
+{
     float P,R,T,SI, CI;
 
     
@@ -22,6 +23,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
