@@ -1,3 +1,6 @@
+/*Write a program to calculate an electricity bill based on units consumed.*/
+
+
 #include<stdio.h>
 int main()
 {
