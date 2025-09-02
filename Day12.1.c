@@ -1,27 +1,25 @@
 /*Write a program to calculate a library fine based on late days.*/
 
-
-
 #include<stdio.h>
 int main ()
 {
-	int days,fine;
+	int days,fine=0;
 	printf("Enter the number of days the book is late : ");
 	scanf("%d",&days);
-	if(days<=4)
+	if(days<=5)
 	{
 		fine=days*2;
-	printf("the fine is ₹%d",fine);
+	printf("the fine is Rs%d",fine);
 	}
-	else if(days>4&&days<=8)
+	else if(days>5&&days<=10)
 	{
 		fine=days*4;
-		printf("the fine is ₹%d",fine);
+		printf("the fine is Rs%d",fine);
 	}
-	else if (days>8&&days<=15)
+	else if (days>10&&days<=30)
 	{
 		fine=days*6;
-		printf("the fine is ₹%d",fine);
+		printf("the fine is Rs%d",fine);
 	}
 	else 
 	{
@@ -30,3 +28,9 @@ int main ()
 	return 0;
 
 }
+
+
+
+
+
+
