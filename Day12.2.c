@@ -11,16 +11,24 @@ int main()
 	if(units<=100)
 	{
 		bill=units*5;
-		printf("the bill is ₹%d",bill);
+		printf("the bill is Rs%d",bill);
 	}
 	else if(units>100&&units<=200)
 	{
-		bill=(100*5)+(units-100)*7+100;
-		printf("the bill is ₹%d",bill);
+		bill=(100*5)+(units-100)*7;
+		printf("the bill is Rs%d",bill);
 	}
-	else 
-	{ bill=(100*5)+(100*7)+(units-200)*10+500;
-		printf("the bill is ₹%d",bill);
+	else if (units>200&&units<=300)
+	{
+		bill=(100*5)+(100*7)+(units-200)*10;
+		printf("the bill is Rs%d",bill);
 	}
+	else
+   {
+       bill=units*12;
+	   printf("the bill is Rs%d",bill);
+   }
+		   
 	return 0;
 }
+
