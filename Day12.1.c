@@ -11,17 +11,17 @@ int main ()
 	if(days<=4)
 	{
 		fine=days*2;
-	printf("the fine is %d",fine);
+	printf("the fine is ₹%d",fine);
 	}
 	else if(days>4&&days<=8)
 	{
 		fine=days*4;
-		printf("the fine is %d",fine);
+		printf("the fine is ₹%d",fine);
 	}
 	else if (days>8&&days<=15)
 	{
 		fine=days*6;
-		printf("the fine is %d",fine);
+		printf("the fine is ₹%d",fine);
 	}
 	else 
 	{
