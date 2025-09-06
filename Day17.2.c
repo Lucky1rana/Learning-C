@@ -1,3 +1,5 @@
+ /*Program to Check for Prime Number*/
+
 #include <stdio.h>
 
 int main() {
@@ -28,4 +30,5 @@ int main() {
 
     return 0;
 }
+
 
