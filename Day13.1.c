@@ -6,7 +6,7 @@ int main()
 {
 	int a,b,result;
     char op;
-    printf("Enter the two number and ab operator (+ , / , - , * , %) : ");
+    printf("Enter the two number and a operator (+ , / , - , * , %) : ");
     scanf("%d %d %c",&a,&b,&op);
      
      switch(op)
@@ -55,4 +55,5 @@ int main()
 	 }
 	 return 0;
 }
+
 
