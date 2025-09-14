@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int num, i, Prime = 1;
 
     printf("Enter a positive integer: ");
@@ -11,7 +12,8 @@ int main() {
     if (num <= 1) 
 	{
         Prime = 0;  
-    } else 
+    } 
+	else 
 	{
         for (i = 2; i <= num; i++) 
 		{
@@ -30,5 +32,6 @@ int main() {
 
     return 0;
 }
+
 
 
