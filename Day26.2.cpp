@@ -21,7 +21,7 @@
 #include<stdio.h>
 int main()
 {
-	int i , j ;
+	int i;
 	for(i=0;i<1;i++)
 	{
 	printf("*\n");
@@ -55,4 +55,5 @@ int main()
     return 0;
 }
 	
+
 
