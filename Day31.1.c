@@ -1,6 +1,5 @@
 /*Search for an element in an array using linear search.*/
 
-
 #include <stdio.h>
 
 int main() 
@@ -8,12 +7,12 @@ int main()
     int n, i, search, found = 0;
 
     
-    printf("Enter the number of elements in the array: ");
+    printf("Enter the number of elements in array: ");
     scanf("%d", &n);
 
-    int arr[n]; 
+    int arr[n];  
 
-     
+    
     printf("Enter %d elements:\n", n);
     for (i = 0; i < n; i++) 
 	{
@@ -21,7 +20,7 @@ int main()
     }
 
     
-    printf("Enter the element to search: ");
+    printf("Enter element to search: ");
     scanf("%d", &search);
 
     
@@ -29,9 +28,9 @@ int main()
 	{
         if (arr[i] == search) 
 		{
-            printf("Element %d found at position %d\n", search, i + 1);
+            printf("Element %d found at index %d (position %d)\n", search, i, i + 1);
             found = 1;
-            break; 
+            break;
         }
     }
 
@@ -42,4 +41,6 @@ int main()
 
     return 0;
 }
+
+
 
