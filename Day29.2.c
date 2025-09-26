@@ -10,7 +10,7 @@ int main()
     printf("Enter number of elements: ");
     scanf("%d", &n);
 
-    int arr[n]; // 1D array
+    int arr[n]; 
 
     
     printf("Enter %d elements:\n", n);
@@ -42,4 +42,5 @@ int main()
 
     return 0;
 }
+
 
