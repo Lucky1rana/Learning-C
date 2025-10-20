@@ -26,11 +26,11 @@ int main() {
     int pivotIndex = -1;
 
     for (i = 0; i < n; i++) {
-        // Right sum is totalSum - leftSum - nums[i]
+        
         int rightSum = totalSum - leftSum - nums[i];
         if (leftSum == rightSum) {
             pivotIndex = i;
-            break;  // leftmost pivot index found
+            break;  
         }
         leftSum += nums[i];
     }
