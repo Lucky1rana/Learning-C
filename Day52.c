@@ -21,7 +21,7 @@ int findCeilIndex(int arr[], int n, int x) {
         }
     }
 
-    return result; // -1 if no element >= x
+    return result; 
 }
 
 int main() {
@@ -36,7 +36,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    while (getchar() != '\n'); // clear input buffer
+    while (getchar() != '\n');  
 
     printf("Enter the number x: ");
     scanf("%d", &x);
@@ -44,7 +44,7 @@ int main() {
     int index = findCeilIndex(arr, n, x);
 
     if (index == -1)
-        printf("-1\n"); // no element >= x
+        printf("-1\n"); 
     else
         printf("Index of ceil of %d: %d\n", x, index);
 
