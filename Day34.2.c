@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 
-int main() 
-{
+int main(){ 
+
     int arr[100]; 
     int n, pos, i;
 
