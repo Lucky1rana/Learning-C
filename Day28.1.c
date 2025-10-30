@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 
-int main() 
-{
+int main(){ 
+
     int n, num, div, prime;
 
     printf("Enter n: ");
