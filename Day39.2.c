@@ -9,10 +9,12 @@ int main()
     printf("Enter rows and columns of matrix: ");
     scanf("%d %d", &n, &m);
 
-    if (n != m) 
+    if (n != m) Z
 	{
+		
         printf("Matrix is not square. Main diagonal sum not possible.\n");
         return 0;
+	
     }
 
     int a[n][m];
@@ -35,4 +37,5 @@ int main()
 
     return 0;
 }
+
 
