@@ -14,9 +14,7 @@ int main()
     printf("Enter number of columns: ");
     scanf("%d", &c);
 
-    int A[r][c], B[r][c], Sum[r][c];
-
-    
+    int A[r][c], B[r][c], Sum[r][c];    
     printf("\nEnter elements of first matrix (A):\n");
     for (i = 0; i < r; i++) 
 	{
@@ -58,4 +56,5 @@ int main()
 
     return 0;
 }
+
 
