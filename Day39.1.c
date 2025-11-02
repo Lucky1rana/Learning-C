@@ -2,7 +2,6 @@
 
 
 #include <stdio.h>
-
 int main() 
 {
     int n, m , i , j;
@@ -14,7 +13,6 @@ int main()
         printf("Matrix is not square. Diagonal check not possible.\n");
         return 0;
     }
-
     int a[n][m];
     printf("Enter elements of the matrix:\n");
     for ( i = 0; i < n; i++) 
@@ -23,16 +21,12 @@ int main()
 		{
             scanf("%d", &a[i][j]);
         }
-    }
-
-   
+    }   
     int diag[n];
     for ( i = 0; i < n; i++) 
 	{
         diag[i] = a[i][i];
-    }
-
-    
+    }  
     int distinct = 1; 
     for ( i = 0; i < n; i++) 
 	{
@@ -55,4 +49,5 @@ int main()
 
     return 0;
 }
+
 
