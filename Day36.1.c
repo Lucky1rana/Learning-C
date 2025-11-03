@@ -2,22 +2,17 @@
 
 
 #include <stdio.h>
-
 int main() 
 {
-    int rows, cols , i , j ;
-
-    
+    int rows, cols , i , j ; 
     printf("Enter number of rows: ");
     scanf("%d", &rows);
 
     printf("Enter number of columns: ");
     scanf("%d", &cols);
 
-    
     int matrix[10][10];
-
-    
+	
     printf("\nEnter elements of the matrix:\n");
     for ( i = 0; i < rows; i++) 
 	{
@@ -27,7 +22,6 @@ int main()
         }
     }
 
-    
     printf("\nThe matrix is:\n");
     for (i = 0; i < rows; i++) 
 	{
@@ -40,4 +34,5 @@ int main()
 
     return 0;
 }
+
 
