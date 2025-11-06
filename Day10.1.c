@@ -2,11 +2,12 @@
 
 
 #include<stdio.h>
-int main()
-{
+int main(){ 
+	
 	int s1,s2,s3;
 	printf("Enter the sides of a triangle : ");
 	scanf("%d %d %d",&s1 ,&s2 ,&s3);
+	
 	if(s1==s2&&s2==s3)
 	{
 		printf(" It is an Equilateral Triangle");
@@ -20,3 +21,4 @@ int main()
 		printf("It ia Scalene Triangle");
 	}
 }
+
