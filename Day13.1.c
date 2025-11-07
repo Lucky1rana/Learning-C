@@ -2,8 +2,7 @@
 
 
 #include<stdio.h>
-int main()
-{
+int main(){
 	int a,b,result;
     char op;
     printf("Enter the two number and a operator (+ , / , - , * , %) : ");
@@ -53,7 +52,9 @@ int main()
      		printf("invalid operator\n");
      		
 	 }
+
 	 return 0;
+
 }
 
 
