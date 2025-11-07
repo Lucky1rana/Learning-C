@@ -2,8 +2,7 @@
 
 
 #include <stdio.h>
-int main() 
-{
+int main() {
     int num1, num2, i , lcm;  
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
@@ -14,9 +13,10 @@ int main()
 	  {
   	   printf("the lcm is %d",i);
   	   break;
-  
       }
-   } 
+   }
+	
     return 0;
 }
+
 
