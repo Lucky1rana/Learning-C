@@ -2,18 +2,14 @@
 
 
 #include <stdio.h>
-
 int main() 
 {
     int r, c;  
     int i, j;
-
-   
     printf("Enter number of rows: ");
     scanf("%d", &r);
     printf("Enter number of columns: ");
     scanf("%d", &c);
-
     int A[r][c], B[r][c], Sum[r][c];    
     printf("\nEnter elements of first matrix (A):\n");
     for (i = 0; i < r; i++) 
@@ -33,8 +29,6 @@ int main()
             scanf("%d", &B[i][j]);
         }
     }
-
-   
     for (i = 0; i < r; i++) 
 	{
         for (j = 0; j < c; j++) 
@@ -42,8 +36,6 @@ int main()
             Sum[i][j] = A[i][j] + B[i][j];
         }
     }
-
-   
     printf("\nSum of the two matrices:\n");
     for (i = 0; i < r; i++) 
 	{
@@ -56,5 +48,6 @@ int main()
 
     return 0;
 }
+
 
 
