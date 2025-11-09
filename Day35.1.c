@@ -3,27 +3,18 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main(){
     int n, i;
-
-   
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     int arr[n];
-
-   
     printf("Enter %d elements:\n", n);
     for (i = 0; i < n; i++) 
 	{
         scanf("%d", &arr[i]);
     }
-
-    
-    int largest, secondLargest;
-
-    
+    int largest, secondLargest; 
     if (arr[0] > arr[1]) 
 	{
         largest = arr[0];
@@ -45,12 +36,11 @@ int main()
 		{
             secondLargest = arr[i];
         }
-    }
-
-    
+    } 
     printf("Second largest element = %d\n", secondLargest);
 
     return 0;
 }
+
 
 
