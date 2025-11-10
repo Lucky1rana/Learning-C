@@ -10,15 +10,13 @@
 * */
 
 #include<stdio.h>
-int main()
-{
+int main(){
 	int i;
 		for(i=0;i<1;i++)
 	{
 	printf("*");
 	}
 	printf("\n");
-	 
 	for(i=0;i<3;i++)
 	{
 		printf("*");
@@ -66,8 +64,8 @@ int main()
 	printf("*");
     }
     printf("\n");
-    
     return 0;
 }
 	
+
 
