@@ -2,8 +2,7 @@
 
 
 #include <stdio.h>
-int main() 
-{
+int main() {
     int rows, cols , i , j ; 
     printf("Enter number of rows: ");
     scanf("%d", &rows);
@@ -34,5 +33,6 @@ int main()
 
     return 0;
 }
+
 
 
