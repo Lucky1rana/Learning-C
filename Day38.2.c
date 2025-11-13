@@ -3,18 +3,13 @@
 
 #include <stdio.h>
 
-int main() 
-{
+int main() {
     int r, c, i, j;
     int flag = 1; 
-
-    
     printf("Enter number of rows: ");
     scanf("%d", &r);
     printf("Enter number of columns: ");
     scanf("%d", &c);
-
-    
     if (r != c) 
 	{
         printf("\nMatrix is not symmetric (not a square matrix).\n");
@@ -32,8 +27,6 @@ int main()
             scanf("%d", &A[i][j]);
         }
     }
-
-    
     for (i = 0; i < r; i++) 
 	{
         for (j = 0; j < c; j++) 
@@ -48,7 +41,6 @@ int main()
             break;
     }
 
-   
     if (flag == 1)
         printf("\nThe matrix is symmetric.\n");
     else
@@ -56,4 +48,5 @@ int main()
 
     return 0;
 }
+
 
