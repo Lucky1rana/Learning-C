@@ -2,8 +2,7 @@
 
 
 #include <stdio.h>
-int main() 
-{
+int main() {
     int num, original, digit, sum = 0, fact, i;
 
     printf("Enter a number: ");
@@ -30,6 +29,7 @@ int main()
 
     return 0;
 }
+
 
 
 
