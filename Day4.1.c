@@ -1,8 +1,7 @@
 /*Write a program to swap two numbers without using a third variable*/
 
 #include<stdio.h>
-int main()
-{
+int main(){
 	int a,b;
 	printf("Enter the 1st and 2nd number : ");
 	scanf("%d%d",&a,&b);
@@ -13,3 +12,4 @@ int main()
 	printf("After swapping : a = %d and b = %d\n",a,b);
 	return 0;
 }
+
