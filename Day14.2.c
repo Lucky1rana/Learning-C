@@ -6,7 +6,7 @@
 int main()
 {
 	int p=1,n,i=1;
-	printf("enter the number : ");
+	printf("enter the value of n : ");
 	scanf("%d",&n);
 	while(i<=n)
 	{
@@ -20,3 +20,4 @@ int main()
 	printf("the product of even numbers is%d",p);
 	return 0;
 	}
+
