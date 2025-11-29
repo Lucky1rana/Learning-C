@@ -6,7 +6,7 @@
 int main() {
     int num, first, last, temp, pow = 1;
 
-    printf("Enter a number: ");
+    printf("Enter any number: ");
     scanf("%d", &num);
 
     temp = num;
